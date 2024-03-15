@@ -1,9 +1,9 @@
 terraform {
  cloud {
-    organization = "sami600"
+    organization = "gd-jackstraw"
     
     workspaces { 
-      tags = ["loadbalancer"]
+      tags = ["gcp-load-balancer"]
     }
   }
 }
