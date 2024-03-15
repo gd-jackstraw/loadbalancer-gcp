@@ -3,7 +3,7 @@ terraform {
     organization = "gd-jackstraw"
     
     workspaces { 
-      tags = ["gcp-load-balancer"]
+      tags = ["load-balancer"]
     }
   }
 }
