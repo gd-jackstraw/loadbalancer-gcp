@@ -82,6 +82,7 @@ resource "google_compute_target_https_proxy" "default" {
 
 resource "google_compute_global_address" "default_ip" {
   name = "frontend-lb-ip"
+  project_id = var.project_id
 }
 
 resource "google_compute_global_forwarding_rule" "serverlesshttploadbalancerfrontend" {
