@@ -1,6 +1,6 @@
 resource "google_compute_backend_service" "backendservice" {
   provider = google-beta
-  for_each = var.backend
+  for_each = var.backends
 
   project = var.project
   name    = "${var.name}-backend-${each.key}"
