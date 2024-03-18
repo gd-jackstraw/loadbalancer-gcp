@@ -1,5 +1,5 @@
 host = "srv.demoapp1.web.ca"
-project_id = "sami-islam-project101-dev"
+project_id = "deft-ocean-413923"
 certificate = "AmazingCertificate"
 private_key = "privatek"
 region = ["northamerica-northeast1","us-central1"]
