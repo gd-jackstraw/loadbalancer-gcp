@@ -24,3 +24,5 @@ variable "managed_ssl_certificate_domains"{
 variable "region" {
 type = list(string) 
 }
+
+variable "projectid" {}
