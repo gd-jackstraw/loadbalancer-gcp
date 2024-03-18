@@ -36,7 +36,7 @@ resource "google_compute_backend_service" "mobilitybackendservice" {
   locality_lb_policy              = "ROUND_ROBIN"
   name                            = "backend-${each.value.function_name}"
   port_name                       = "http"
-  project                         = "sami-islam-project101-dev"
+  project                         = "deft-ocean-413923"
   protocol                        = "HTTPS"
   session_affinity                = "NONE"
   timeout_sec                     = 30
